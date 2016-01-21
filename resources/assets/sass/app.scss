@@ -1,2 +1,29 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// Colours
+$green:                                     #008B2E;
 
+// Setup
+$brand-primary:                             $green;
+
+// Navbar
+$navbar-default-bg:                         $green;
+$navbar-default-link-color:                 #fff;
+$navbar-default-link-hover-color:           #222;
+$navbar-default-link-active-color:          #555;
+$navbar-default-brand-hover-color:          #222;
+$navbar-default-border:                     none;
+
+// Jumbotron
+$jumbotron-bg:                              $green;
+$jumbotron-color:                           #fff;
+$jumbotron-padding:                         50px;
+
+// Buttons
+$btn-default-color:                         #fff;
+$btn-default-bg:                            transparent;
+$btn-default-border:                        #ccc;
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.navbar {
+    margin: 0;
+}
