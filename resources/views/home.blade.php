@@ -34,6 +34,7 @@
     <nav class="navbar navbar-default navbar-static-top">
 
         <div class="container">
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -44,31 +45,27 @@
                 <a class="navbar-brand" href="#">Let's Encrypt Project</a>
             </div>
 
-            <!-- <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="https://www.ssllabs.com/ssltest/analyze.html?d={{ url()->current() }}">Test SSL</a></li>
                 </ul>
-            </div> -->
-        </div>
+            </div>
 
+        </div>
     </nav>
 
-    <!-- Main jumbotron -->
     <div class="jumbotron">
         <div class="container">
-            <h1>Let's Encrypt!</h1>
-            <p>This website was created as part of the project for a Masters Program in Information Security. It's purpose is to test the deployment of certificates issued by the Let's Encrypt Certificate Authority. </p>
-            <p><a class="btn btn-default btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Let's Encrypt!</h1>
+                    <p>This website was created as part of the project for a Masters Program in Information Security. It's purpose is to test the deployment of certificates issued by the Let's Encrypt Certificate Authority. </p>
+                    <p><a class="btn btn-default btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-6">
+                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/ovwZ2GaXocc" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
 
